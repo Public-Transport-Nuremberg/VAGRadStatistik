@@ -1,0 +1,19 @@
+{
+  "name": "vagradstatistik",
+  "version": "0.1.0",
+  "description": "Tool to collect VAG_RAD statistics in influx 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "VAG"
+  ],
+  "author": "BolverBlitz",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "influxdb-v2": "^1.0.0",
+    "request": "^2.88.2"
+  }
+}
